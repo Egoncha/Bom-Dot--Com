@@ -5,5 +5,3 @@ voice is activated
 
 attended = hand + utensil detected
 unattended = utensil detected with no hand
-
-balls
