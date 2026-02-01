@@ -1,3 +1,7 @@
+#speaker import section
+import speakers 
+
+#
 
 import cv2
 import torch
@@ -153,6 +157,11 @@ def main():
                 # Put text
                 cv2.putText(frame, label, (x1, y1 - 5), 
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2)
+
+
+                #THIS IS THE ADDED SOUND FILE
+
+                play_sound()
         
         # Draw hand/person detections from pose model
         for box in pose_result.boxes:
