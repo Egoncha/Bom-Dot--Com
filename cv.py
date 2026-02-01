@@ -33,7 +33,10 @@ def main():
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
     
     print("Starting detection... Press 'q' to quit")
-    
+
+
+
+    #Start infinite loop
     while True:
         ret, frame = cap.read()
         
