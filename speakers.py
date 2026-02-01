@@ -11,12 +11,21 @@ import pygame
 import time 
 
 
-pygame.mixer.init()
-pygame.mixer.music.load("vine-boom.mp3")
-pygame.mixer.music.play()
+# pygame.mixer.init()
+# pygame.mixer.music.load("vine-boom.mp3")
+# pygame.mixer.music.play()
+#
+# time.sleep(2)          # play duration in seconds
+#
+# pygame.mixer.music.stop()
+# pygame.mixer.quit()
 
-time.sleep(10)          # play duration in seconds
+def play_sound():
+    pygame.mixer.init()
+    pygame.mixer.music.load("vine-boom.mp3")
+    pygame.mixer.music.play()
 
-pygame.mixer.music.stop()
-pygame.mixer.quit()
-
+    time.sleep(2)
+    
+    pygame.mixer.music.stop()
+    pygame.mixer.quit()
