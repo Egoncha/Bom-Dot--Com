@@ -1,0 +1,9 @@
+# Client Requirements (Raspberry Pi)
+# Install with: pip3 install -r requirements_client.txt
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyttsx3>=2.90
+
+# Note: You do NOT need ultralytics or torch on the Raspberry Pi!
+# All heavy AI processing happens on the server (your Mac/PC)

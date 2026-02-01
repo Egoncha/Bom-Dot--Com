@@ -1,0 +1,7 @@
+# Server Requirements (Mac/PC)
+# Install with: pip3 install -r requirements_server.txt
+
+opencv-python>=4.8.0
+ultralytics>=8.0.196
+torch>=2.0.0
+numpy>=1.24.0
