@@ -161,7 +161,7 @@ def main():
 
                 #THIS IS THE ADDED SOUND FILE
 
-                play_sound()
+                speakers.play_sound()
         
         # Draw hand/person detections from pose model
         for box in pose_result.boxes:
